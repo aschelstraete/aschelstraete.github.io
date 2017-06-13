@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
+@font-face {
+  font-family: 'Circular Book';
+  src: url("../fonts/CircularStd-Book.eot");
+  src: url("../fonts/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Circular Bold';
+  src: url("../fonts/CircularStd-Bold.eot");
+  src: url("../fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Bold.woff") format("woff"), url("../fonts/CircularStd-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+p {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 32px; }
+
+a {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  text-decoration: underline; }
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.15733em;
+  font-weight: 400;
+  line-height: 69px; }
+
+h2 {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  font-size: 2.36859em;
+  font-weight: 400;
+  line-height: 53; }
+
+h3 {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  font-size: 1.77689em;
+  font-weight: 400;
+  line-height: 43px; }
+
+h4 {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  font-size: 1.333em;
+  font-weight: 400;
+  line-height: 36px; }
+
+h5 {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  font-size: 0.75019em;
+  font-weight: 400;
+  line-height: 30px; }
+
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+  box-shadow: inset 0 0 0 8px #dae0e6;
+  z-index: 200; }
+  .container .block-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    transform: translateY(-40%); }
+    .container .block-content .block-content-text {
+      position: relative;
+      max-width: 650px;
+      margin: 0 auto;
+      display: block; }
+      .container .block-content .block-content-text h1 {
+        color: #dae0e6; }
+        .container .block-content .block-content-text h1 span {
+          color: #FF0055; }
+        @media (max-width: 767px) {
+          .container .block-content .block-content-text h1 {
+            font-size: 1.77689em;
+            line-height: 39px; } }
+        @media (max-width: 768px) {
+          .container .block-content .block-content-text h1 {
+            font-size: 2.36859em;
+            line-height: 51px; } }
+      .container .block-content .block-content-text .logo_light {
+        width: 200px;
+        height: 20px;
+        margin-top: 22px;
+        display: inline-block; }
+  .container footer {
+    position: absolute;
+    width: 100%;
+    bottom: 32px;
+    text-align: center; }
+    .container footer p {
+      color: #dae0e6;
+      margin: 8px 0; }
+    .container footer a {
+      color: white; }
+
+.video-container {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: opacity 0.5s ease-in-out; }
+  .video-container video {
+    background-size: cover;
+    background-position: center top;
+    display: block;
+    position: absolute;
+    opacity: .6;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: auto;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%; }
+
+@font-face {
+  font-family: 'Circular Book';
+  src: url("../fonts/CircularStd-Book.eot");
+  src: url("../fonts/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Circular Bold';
+  src: url("../fonts/CircularStd-Bold.eot");
+  src: url("../fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Bold.woff") format("woff"), url("../fonts/CircularStd-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+p {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 32px; }
+
+a {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  text-decoration: underline; }
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.15733em;
+  font-weight: 400;
+  line-height: 69px; }
+
+h2 {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  font-size: 2.36859em;
+  font-weight: 400;
+  line-height: 53; }
+
+h3 {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  font-size: 1.77689em;
+  font-weight: 400;
+  line-height: 43px; }
+
+h4 {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  font-size: 1.333em;
+  font-weight: 400;
+  line-height: 36px; }
+
+h5 {
+  font-family: 'Circular Book', Helvetica, sans-serif;
+  font-size: 0.75019em;
+  font-weight: 400;
+  line-height: 30px; }
+
+body {
+  background-color: black;
+  overflow: hidden; }
