@@ -3,22 +3,22 @@
 // Typography
 
 @font-face {
-	font-family: 'Circular Book';
-	src: url('../fonts/CircularStd-Book.eot');
-	src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/CircularStd-Book.woff') format('woff'),
-		url('../fonts/CircularStd-Book.ttf') format('truetype');
-	font-weight: normal;
+	font-family: 'NoirPro';
+	src: url('../fonts/NoirPro-Light.eot');
+	src: url('../fonts/NoirPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NoirPro-Light.woff') format('woff'),
+		url('../fonts/NoirPro-Light.ttf') format('truetype');
+	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Circular Bold';
-	src: url('../fonts/CircularStd-Bold.eot');
-	src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/CircularStd-Bold.woff') format('woff'),
-		url('../fonts/CircularStd-Bold.ttf') format('truetype');
-	font-weight: 700;
+	font-family: 'NoirPro';
+	src: url('../fonts/NoirPro-Regular.eot');
+	src: url('../fonts/NoirPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NoirPro-Regular.woff') format('woff'),
+		url('../fonts/NoirPro-Regular.ttf') format('truetype');
+	font-weight: normal;
 	font-style: normal;
 }
 
@@ -35,12 +35,13 @@ $font-size-xl: $font-size-x * $font-mult;
 
 // Mixins
 
-@mixin Circular {
-	font-family: 'Circular Book', Helvetica, sans-serif;
+@mixin NoirPro-Light {
+	font-family: 'NoirPro', Helvetica, sans-serif;
+	font-weight: 300;
 }
 
-@mixin Circular-Bold {
-	font-family: 'Circular Book', Helvetica, sans-serif;
+@mixin NoirPro {
+	font-family: 'NoirPro', Helvetica, sans-serif;
 }
 
 @mixin Playfair {
@@ -50,13 +51,13 @@ $font-size-xl: $font-size-x * $font-mult;
 // Headings
 
 p {
-	@include Circular;
+	@include NoirPro;
 	font-size: $font-base;
 	line-height: 32px;
 }
 
 a {
-	@include Circular-Bold;
+	@include NoirPro;
 	text-decoration: underline;
 }
 
@@ -68,28 +69,28 @@ h1 {
 }
 
 h2 {
-	@include Circular;
+	@include Playfair;
 	font-size: $font-size-x;
 	font-weight: 400;
 	line-height: 53;
 }
 
 h3 {
-	@include Circular;
+	@include Playfair;
 	font-size: $font-size-m;
 	font-weight: 400;
 	line-height: 43px;
 }
 
 h4 {
-	@include Circular;
+	@include NoirPro;
 	font-size: $font-size-s;
 	font-weight: 400;
 	line-height: 36px;
 }
 
 h5 {
-	@include Circular;
+	@include NoirPro;
 	font-size: $font-size-xs;
 	font-weight: 400;
 	line-height: 30px;
