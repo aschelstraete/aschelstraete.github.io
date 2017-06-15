@@ -174,7 +174,7 @@ body {
     animation-duration: 2s;
     animation-fill-mode: both;
     animation-name: fadeIn;
-    animation-delay: 4s; }
+    animation-delay: 3s; }
     .container footer p {
       font-family: 'NoirPro', Helvetica, sans-serif;
       font-weight: 300;

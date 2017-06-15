@@ -3,7 +3,7 @@
 var elem = document.getElementById("videoBgr");//based on Fabrizio's comment declare it outside
 setTimeout(function(){
    elem.className = elem.className + "video-fade";
-},1000);
+},5000);
 
 var timeoutId;
 var $videoBgAspect = $(".video-aspect");
