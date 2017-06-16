@@ -5,6 +5,7 @@ setTimeout(function(){
    elem.className = elem.className + "video-fade";
 },5000);
 
+
 var timeoutId;
 var $videoBgAspect = $(".video-aspect");
 var $videoBgWidth = $(".video-width");
